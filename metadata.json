@@ -1,0 +1,6 @@
+{
+  "name": "PS SUSTAIN PRODUCTS",
+  "description": "Admin Dashboard to manage website image assets backed by Firebase Firestore",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

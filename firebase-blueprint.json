@@ -1,0 +1,27 @@
+{
+  "entities": {
+    "Asset": {
+      "title": "Asset",
+      "description": "A website image asset that can be updated, deleted, or uploaded.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "alt": { "type": "string" },
+        "url": { "type": "string" },
+        "firebasePath": { "type": "string" },
+        "size": { "type": "string" },
+        "dimensions": { "type": "string" },
+        "category": { "type": "string" },
+        "createdAt": { "type": "number" }
+      },
+      "required": ["id", "title", "url"]
+    }
+  },
+  "firestore": {
+    "/assets/{assetId}": {
+      "schema": "Asset",
+      "description": "Collection of website image assets."
+    }
+  }
+}
